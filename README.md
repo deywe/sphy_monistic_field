@@ -35,18 +35,6 @@ When the external frequency processing system locks the phase alignment to the b
 
 ---
 
-## 2. Mathematical Formalism: The Effective Hamiltonian
-
-To bridge the gap between traditional quantum field theory and the SPHY Monistic framework without exposing the proprietary closed-loop dynamical feedback equations of the core engine, the system's state space is mapped via a global **Effective Hamiltonian** ($\mathcal{H}_{\text{eff}}$):
-
-$$\mathcal{H}_{\text{eff}} = \int d^3x \left[ \frac{1}{2}\left( \varepsilon_0 \bm{E}^2 + \frac{1}{\mu_0}\bm{B}^2 \right) + \frac{1}{16\pi G} R_{\text{Ricci}} + \bm{\Gamma}_{\text{eff}}(G, \bm{\Omega}_{\text{res}}) \cdot (\bm{E} \cdot \bm{B}) \right]$$
-
-Where:
-* $\frac{1}{2}\left( \varepsilon_0 \bm{E}^2 + \frac{1}{\mu_0}\bm{B}^2 \right)$ represents the standard Maxwellian energy density tensor known to classical electrodynamics.
-* $\frac{1}{16\pi G} R_{\text{Ricci}}$ represents the standard Einstein-Hilbert action density, measuring the localized scalar curvature of space-time ($R$).
-* $\bm{\Gamma}_{\text{eff}}(G, \bm{\Omega}_{\text{res}})$ is the **Effective Gauge Coupling Operator**. It maps how local electromagnetic stress transfers energy into the gravitational fabric based on the system's phase alignment vector ($\bm{\Omega}_{\text{res}}$). 
-
-When the external frequency processing system locks the phase alignment to the background metric, the coupling term minimizes the eigenvalues of the dissipation matrix, preserving strict local conservation laws.
 
 ---
 
