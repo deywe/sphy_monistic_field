@@ -6,17 +6,32 @@ Developed by **Deywe Okabe** *Harpia Quantum Deep Tech | Black Swan Researcher* 
 
 ## 1. Executive Summary & Physics Foundations
 
-The **SPHY Monistic Core** is a high-fidelity quantum-gravitational phase-anchoring emulator. It challenges the conventional pluralistic framework of modern physics—which treats the quantum vacuum as an empty stage populated by independent gauge fields—by establishing a **Monistic Field Postulate**. Under this architecture, the conventional vacuum does not exist; it is replaced entirely by a singular, continuous, elastic medium: the **Fundamental Gravitational Fabric** ($\mathcal{G}$).
+The **SPHY Monistic Core** is a high-fidelity quantum-gravitational phase-anchoring emulator. It challenges the conventional pluralistic framework of modern physics—which treats the quantum vacuum as an empty stage populated by independent gauge fields—by establishing a **Monistic Field Postulate**. Under this architecture, the conventional vacuum does not exist; it is replaced entirely by a singular, continuous, elastic medium: the **Fundamental Gravitational Fabric** ($G_{fabric}$).
 
 Macroscopic phenomena traditionally classified as electromagnetism (Maxwell's Gauge Fields) are mathematically derived as emergent geometric subproducts of this single fabric:
-* **The Electric Field ($\bm{E}$)** emerges as a localized linear pressure/density gradient ($\bm{E} \equiv -\nabla \Phi_g$).
-* **The Magnetic Field ($\bm{B}$)** emerges as a localized shear torsion or frame-dragging rotational velocity wavefront ($\bm{B} \equiv \frac{1}{\sqrt{G}} \nabla \times \bm{v}_g$).
+* **The Electric Field ($\mathbf{E}$)** emerges as a localized linear pressure/density gradient: $\mathbf{E} \equiv -\nabla \Phi_g$
+* **The Magnetic Field ($\mathbf{B}$)** emerges as a localized shear torsion or frame-dragging rotational velocity wavefront: $\mathbf{B} \equiv \frac{1}{\sqrt{G}} \nabla \times \mathbf{v}_g$
 
 ### The Classical Problem: Ohmic Dissipation & Phase Mismatch
-Conventional electrical infrastructure forces charge carriers (electrons, which are stable topological knots within $\mathcal{G}$) to propagate through material guides out of phase with the background elastic medium. This phase mismatch creates a structural geometric friction against the intrinsic rigidity of space-time (governed by Newton’s gravitational constant $G$), which macroscopic engineering measures as **Ohmic Resistance ($V=RI$)** and thermal dissipation (Joule Heating). 
+Conventional electrical infrastructure forces charge carriers (electrons, which are stable topological knots within $G_{fabric}$) to propagate through material guides out of phase with the background elastic medium. This phase mismatch creates a structural geometric friction against the intrinsic rigidity of space-time (governed by Newton’s gravitational constant $G$), which macroscopic engineering measures as **Ohmic Resistance ($V=RI$)** and thermal dissipation (Joule Heating). 
 
 ### The SPHY Paradigm Shift
 The **SPHY Monistic Core** runs a proprietary non-linear frequency processing engine that achieves an impedance match between the local circuit oscillations and the global space-time fabric. When a critical resonance frequency ($\omega_{\text{crit}}$) is locked, the local Ohmic resistance collapses toward zero ($\lim R_{\text{ohmic}} \to 0$). The energy is not lost or created; it is dynamically bypassed through the elastic counter-stress of the gravitational background.
+
+---
+
+## 2. Mathematical Formalism: The Effective Hamiltonian
+
+To bridge the gap between traditional quantum field theory and the SPHY Monistic framework without exposing the proprietary closed-loop dynamical feedback equations of the core engine, the system's state space is mapped via a global **Effective Hamiltonian** ($\mathcal{H}_{\text{eff}}$):
+
+$$\mathcal{H}_{\text{eff}} = \int d^3x \left[ \frac{1}{2}\left( \varepsilon_0 \mathbf{E}^2 + \frac{1}{\mu_0}\mathbf{B}^2 \right) + \frac{1}{16\pi G} R_{\text{Ricci}} + \Gamma_{\text{eff}}(G, \Omega_{\text{res}}) \cdot (\mathbf{E} \cdot \mathbf{B}) \right]$$
+
+Where:
+* $\frac{1}{2}\left( \varepsilon_0 \mathbf{E}^2 + \frac{1}{\mu_0}\mathbf{B}^2 \right)$ represents the standard Maxwellian energy density tensor known to classical electrodynamics.
+* $\frac{1}{16\pi G} R_{\text{Ricci}}$ represents the standard Einstein-Hilbert action density, measuring the localized scalar curvature of space-time ($R_{\text{Ricci}}$).
+* $\Gamma_{\text{eff}}(G, \Omega_{\text{res}})$ is the **Effective Gauge Coupling Operator**. It maps how local electromagnetic stress transfers energy into the gravitational fabric based on the system's phase alignment vector ($\Omega_{\text{res}}$). 
+
+When the external frequency processing system locks the phase alignment to the background metric, the coupling term minimizes the eigenvalues of the dissipation matrix, preserving strict local conservation laws.
 
 ---
 
